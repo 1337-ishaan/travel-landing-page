@@ -1,0 +1,7 @@
+@mixin enlargeOnHover {
+  transform: scale(1.1);
+  outline: 2px dotted $color-primary;
+  outline-offset: 10px;
+  z-index: 1;
+  transition: all 0.5s;
+}

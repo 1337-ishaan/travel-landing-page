@@ -1,0 +1,24 @@
+{
+  "name": "travel-landing",
+  "version": "1.0.0",
+  "description": "landing page for travel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1337-ishaan/travel-landing-page.git"
+  },
+  "author": "Ishaan Parmar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1337-ishaan/travel-landing-page/issues"
+  },
+  "homepage": "https://github.com/1337-ishaan/travel-landing-page#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

@@ -1,0 +1,36 @@
+.composition {
+  position: relative;
+  &_photo {
+    position: absolute;
+    width: 55%;
+    box-shadow: 0 1.5rem 4rem rgba($color-dark, 0.3);
+    border-radius: 0.3rem;
+    outline-offset:2rem;
+    &--p1 {
+      position: inherit;
+
+      top: 0;
+      left: -6rem;
+      &:hover {
+        @include enlargeOnHover;
+      }
+    }
+    &--p2 {
+      position: inherit;
+
+      top: -9rem;
+      left: 4rem;
+      &:hover {
+        @include enlargeOnHover;
+      }
+    }
+    &--p3 {
+      position: inherit;
+      top: -15rem;
+      left: -2rem;
+      &:hover {
+        @include enlargeOnHover;
+      }
+    }
+  }
+}

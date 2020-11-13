@@ -1,0 +1,61 @@
+.section {
+  &-about {
+    background-color: #eee;
+    margin-top: -20vh;
+    padding: 11rem 0 0 0;
+    text-align: center;
+  }
+  &-features {
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+    margin-top: -22vh;
+    padding: 12rem 0 5rem 0;
+    // height:750px;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary, 0.8),
+        rgba($color-secondary, 0.8)
+      ),
+      url("../img/nat-4.jpg");
+  }
+  &-tours {
+    text-align: center;
+    padding: 2rem;
+    background-color: #eee;
+  }
+  &-story{
+    position:relative;
+    padding:2em;
+
+  }
+  &-form{
+    height:100%;
+    width:100%;
+  padding:5em;
+  background-color:rgba($color-secondary, 0.5);
+  
+  }
+}
+.paragraph {
+  &-features {
+    text-align: justify;
+    color: $color-dark;
+    font-weight: 300;
+    padding: 20px 20px 0;
+    text-align-last: center;
+  }
+  font-size: 1rem;
+  text-align: justify;
+  &:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
+.tours-section {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.text-features {
+  color: $color-dark;
+  font-weight: 300;
+  text-transform: uppercase;
+}
